@@ -4,7 +4,7 @@ Mongoid.logger.level = log_level
 Mongo::Logger.level = log_level
 
 Mongoid.configure do |config|
-  uri = 'mongodb://beslow:jiaren123456@cluster0-shard-00-00-3h42w.mongodb.net:27017,cluster0-shard-00-01-3h42w.mongodb.net:27017,cluster0-shard-00-02-3h42w.mongodb.net:27017/errbit_production?ssl=true&replicaSet=Cluster1-shard-0&authSource=admin'
+  uri = 'mongodb://beslow:jiaren123456@errbit-shard-00-00-3h42w.mongodb.net:27017,errbit-shard-00-01-3h42w.mongodb.net:27017,errbit-shard-00-02-3h42w.mongodb.net:27017/errbit_production?ssl=true&replicaSet=ERRBIT-shard-0&authSource=admin'
       # if Errbit::Config.mongo_url == 'mongodb://localhost'
       #     "mongodb://127.0.0.1:27017/errbit_#{Rails.env}"
       #   else
