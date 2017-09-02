@@ -1,5 +1,5 @@
 class User
-  PER_PAGE = 30
+  PER_PAGE = 200
   include Mongoid::Document
   include Mongoid::Timestamps
 
