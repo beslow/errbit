@@ -3,6 +3,9 @@
 # Errs together as belonging to the same problem.
 
 class Problem
+
+  paginates_per 200
+
   include Mongoid::Document
   include Mongoid::Timestamps
 
